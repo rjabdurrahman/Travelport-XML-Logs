@@ -1,0 +1,115 @@
+<univ:AirCreateReservationReq RetainReservation="Both" RetrieveProviderReservationDetails="true" Version="0"
+    xmlns:univ="http://www.travelport.com/schema/universal_v50_0">
+    <com:BillingPointOfSaleInfo OriginApplication="UAPI"
+        xmlns:com="http://www.travelport.com/schema/common_v50_0"/>
+    <com:BookingTraveler Key="Qm9va2luZ1RyYXZlbGVyMQ==" TravelerType="ADT"
+        xmlns:com="http://www.travelport.com/schema/common_v50_0">
+        <com:BookingTravelerName Prefix="Mr" First="CARSTEN" Last="LINDELOEV"/>
+        <com:PhoneNumber Key="1005359" CountryCode="011" Location="DEN" Number="227-722-2454" Extension="22" AreaCode="222" Type="Home" Text="Abc-Xy"/>
+        <com:Email Type="Home" EmailID="jtestora@travelport.com"/>
+        <com:SSR Key="1" Type="DOCS" Status="HK" Carrier="SA" FreeText="P/CA/F9850356/GB/04JAN80/M/01JAN14/LINDELOEV/CARSTENGJELLERUPMr"/>
+        <com:Address>
+            <com:AddressName>Jan Restora</com:AddressName>
+            <com:Street>6901 S. Havana</com:Street>
+            <com:Street>Apt 3</com:Street>
+            <com:City>Englewood</com:City>
+            <com:State>CO</com:State>
+            <com:PostalCode>80111</com:PostalCode>
+            <com:Country>US</com:Country>
+        </com:Address>
+    </com:BookingTraveler>
+    <GeneralRemark UseProviderNativeMode="true" TypeInGds="Basic"
+        xmlns="http://www.travelport.com/schema/common_v50_0">
+        <RemarkData>Booking 1</RemarkData>
+    </GeneralRemark>
+    <com:ContinuityCheckOverride Key="1T"
+        xmlns:com="http://www.travelport.com/schema/common_v50_0">true</com:ContinuityCheckOverride>
+    <com:FormOfPayment Key="PDz8y7xu4hGfaM/wYIhwmw==" Type="Credit"
+        xmlns:com="http://www.travelport.com/schema/common_v50_0">
+        <com:CreditCard Type="CA" Number="5555555555555557" ExpDate="2024-01" Name="JAYA KUMAR" CVV="123" Key="GAJOYrVu4hGShsrlYIhwmw==">
+            <com:BillingAddress>
+                <com:AddressName>Jan Testora</com:AddressName>
+                <com:Street>6901 S. Havana</com:Street>
+                <com:Street>Apt 2</com:Street>
+                <com:City>Englewood</com:City>
+                <com:State>CO</com:State>
+                <com:PostalCode>8011</com:PostalCode>
+                <com:Country>AU</com:Country>
+            </com:BillingAddress>
+        </com:CreditCard>
+    </com:FormOfPayment>
+    <air:AirPricingSolution Key="V0XCLOSqWDKAv/IFDAAAAA==" TotalPrice="BDT116437" BasePrice="USD1033.00" ApproximateTotalPrice="BDT116437" ApproximateBasePrice="BDT96163" EquivalentBasePrice="BDT96163" Taxes="BDT20274" ApproximateTaxes="BDT20274"
+        xmlns:air="http://www.travelport.com/schema/air_v50_0">
+        <air:AirSegment Key="qD6CLOUqWDKAcFOPDAAAAA==" Group="0" ProviderCode="1G" Carrier="UL" FlightNumber="190" Origin="DAC" Destination="CMB" DepartureTime="2022-11-13T13:00:00.000+06:00" ArrivalTime="2022-11-13T15:55:00.000+05:30" FlightTime="205" Distance="1341" ETicketability="Yes" Equipment="332" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+            <air:AirAvailInfo ProviderCode="1G" />
+        </air:AirSegment>
+        <air:AirSegment Key="qD6CLOUqWDKAeFOPDAAAAA==" Group="0" ProviderCode="1G" Carrier="UL" FlightNumber="225" Origin="CMB" Destination="DXB" DepartureTime="2022-11-13T18:35:00.000+05:30" ArrivalTime="2022-11-13T21:50:00.000+04:00" FlightTime="285" Distance="2043" ETicketability="Yes" Equipment="332" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+            <air:AirAvailInfo ProviderCode="1G" />
+        </air:AirSegment>
+        <air:AirSegment Key="qD6CLOUqWDKAgFOPDAAAAA==" Group="1" ProviderCode="1G" Carrier="UL" FlightNumber="226" Origin="DXB" Destination="CMB" DepartureTime="2022-11-18T23:00:00.000+04:00" ArrivalTime="2022-11-19T04:55:00.000+05:30" FlightTime="265" Distance="2043" ETicketability="Yes" Equipment="332" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+            <air:AirAvailInfo ProviderCode="1G" />
+        </air:AirSegment>
+        <air:AirSegment Key="qD6CLOUqWDKAiFOPDAAAAA==" Group="1" ProviderCode="1G" Carrier="UL" FlightNumber="189" Origin="CMB" Destination="DAC" DepartureTime="2022-11-19T07:50:00.000+05:30" ArrivalTime="2022-11-19T11:30:00.000+06:00" FlightTime="190" Distance="1341" ETicketability="Yes" Equipment="32B" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+            <air:AirAvailInfo ProviderCode="1G" />
+        </air:AirSegment>
+        <air:AirPricingInfo Key="qD6CLOUqWDKAmFOPDAAAAA==" TotalPrice="BDT66555" BasePrice="USD598.00" ApproximateTotalPrice="BDT66555" ApproximateBasePrice="BDT55668" EquivalentBasePrice="BDT55668" Taxes="BDT10887" ApproximateTaxes="BDT10887" LatestTicketingTime="2022-11-13T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="UL" ProviderCode="1G" Cat35Indicator="false">
+            <air:FareInfo Key="qD6CLOUqWDKAxFOPDAAAAA==" FareBasis="LRT1BD" PassengerTypeCode="ADT" Origin="DAC" Destination="DXB" EffectiveDate="2022-10-04T02:32:00.000+06:00" DepartureDate="2022-11-13" Amount="BDT30192" NegotiatedFare="false" NotValidBefore="2022-11-13" NotValidAfter="2022-11-13">
+                <air:FareSurcharge Key="qD6CLOUqWDKAyFOPDAAAAA==" Type="Other" Amount="NUC39.83" />
+                <air:BaggageAllowance>
+                    <air:MaxWeight Value="30" Unit="Kilograms" />
+                </air:BaggageAllowance>
+                <air:FareRuleKey FareInfoRef="qD6CLOUqWDKAxFOPDAAAAA==" ProviderCode="1G">gws-eJxNjsEKAyEMRD9mmfskUdqjq3bpYfFQdqF76f9/RqNSaMDMhBcdU0pKVSEt/deCz3LuaGcBGtRPfWfoPURCfLpAqmB/HZIrxhMi5qANOFXGWtESXLBx04l64Rq9rsWZaTBzpaAHo1u/gZ95PN22tR65UmnGGKPHTsgb/KdfblsrRA==</air:FareRuleKey>
+                <air:Brand Key="qD6CLOUqWDKAPGOPDAAAAA==" BrandID="933064" Name="Economy Value" BrandedDetailsAvailable="true" Carrier="UL" BrandTier="0004" />
+            </air:FareInfo>
+            <air:FareInfo Key="qD6CLOUqWDKAzFOPDAAAAA==" FareBasis="RE6M1BD" PassengerTypeCode="ADT" Origin="DXB" Destination="DAC" EffectiveDate="2022-10-04T02:32:00.000+06:00" DepartureDate="2022-11-18" Amount="BDT25476" NegotiatedFare="false" NotValidBefore="2022-11-19" NotValidAfter="2022-11-19">
+                <air:FareSurcharge Key="qD6CLOUqWDKA0FOPDAAAAA==" Type="Other" Amount="NUC33.60" />
+                <air:BaggageAllowance>
+                    <air:MaxWeight Value="30" Unit="Kilograms" />
+                </air:BaggageAllowance>
+                <air:FareRuleKey FareInfoRef="qD6CLOUqWDKAzFOPDAAAAA==" ProviderCode="1G">gws-eJxNTkEOwzAIe0zluyFNu2OapNUOWw7TKq2X/f8ZI3SThgQ2MmBSSkpVIUP6jwHvYb+h7QVoUMu6FOhI0rsDpAoe63SXXOE3RC6mNFdPFJ8rWkYDbNzUpaNZfGt95X5qDhMNKejO6NQ28CPr1Whb6jNXKkNgjNFsT5Ez7NUPim8rcw==</air:FareRuleKey>
+                <air:Brand Key="qD6CLOUqWDKARGOPDAAAAA==" BrandID="933064" Name="Economy Value" BrandedDetailsAvailable="true" Carrier="UL" BrandTier="0004" />
+            </air:FareInfo>
+            <air:FareInfo Key="qD6CLOUqWDKAEGOPDAAAAA==" FareBasis="LRT1BD" PassengerTypeCode="CNN" Origin="DAC" Destination="DXB" EffectiveDate="2022-10-04T02:32:00.000+06:00" DepartureDate="2022-11-13" Amount="BDT21949" NegotiatedFare="false" NotValidBefore="2022-11-13" NotValidAfter="2022-11-13">
+                <air:FareSurcharge Key="qD6CLOUqWDKAFGOPDAAAAA==" Type="Other" Amount="NUC22.40" />
+                <air:BaggageAllowance>
+                    <air:MaxWeight Value="30" Unit="Kilograms" />
+                </air:BaggageAllowance>
+                <air:FareRuleKey FareInfoRef="qD6CLOUqWDKAEGOPDAAAAA==" ProviderCode="1G">gws-eJxNTkEOwzAIe0zlO5hFuWZJVu1QcZhWab3s/88YSTWpSGAjA6aUQiFVxMo1FnyXfYPvDXAwsn8qqGYZGt0BESq211trxzyhaiH4FE/kHGtstwCssvKURuCYtd/buGQp50AhhjEGjQ38yeMZ1Jt77UIxk5RS2J6iZMSnP3APK1I=</air:FareRuleKey>
+                <air:Brand Key="qD6CLOUqWDKATGOPDAAAAA==" BrandID="933064" Name="Economy Value" BrandedDetailsAvailable="true" Carrier="UL" BrandTier="0004" />
+            </air:FareInfo>
+            <air:FareInfo Key="qD6CLOUqWDKAGGOPDAAAAA==" FareBasis="RE6M1BD" PassengerTypeCode="CNN" Origin="DXB" Destination="DAC" EffectiveDate="2022-10-04T02:32:00.000+06:00" DepartureDate="2022-11-18" Amount="BDT18546" NegotiatedFare="false" NotValidBefore="2022-11-19" NotValidAfter="2022-11-19">
+                <air:FareSurcharge Key="qD6CLOUqWDKAHGOPDAAAAA==" Type="Other" Amount="NUC22.40" />
+                <air:FareSurcharge Key="qD6CLOUqWDKAIGOPDAAAAA==" Type="Other" Amount="NUC18.90" />
+                <air:BaggageAllowance>
+                    <air:MaxWeight Value="30" Unit="Kilograms" />
+                </air:BaggageAllowance>
+                <air:FareRuleKey FareInfoRef="qD6CLOUqWDKAGGOPDAAAAA==" ProviderCode="1G">gws-eJxNjrEOwjAMRD+muv3sEEi3kKRVh+IBqRJd+P/PwE1BwlJ8Zz0nl5yzUlXIkP9rwHvYVthWAYP6afcKSST7tINUwXO6PqQ09DdEkhPr9FTte1XrxQUzZ+1oN69vb6/iTMY00pWKIxmH9Rv4mWlxa9WsNCpDYIzRY0/IG/yrH4/bK4c=</air:FareRuleKey>
+                <air:Brand Key="qD6CLOUqWDKAVGOPDAAAAA==" BrandID="933064" Name="Economy Value" BrandedDetailsAvailable="true" Carrier="UL" BrandTier="0004" />
+            </air:FareInfo>
+            <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="qD6CLOUqWDKAxFOPDAAAAA==" SegmentRef="qD6CLOUqWDKAcFOPDAAAAA==" />
+            <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="qD6CLOUqWDKAxFOPDAAAAA==" SegmentRef="qD6CLOUqWDKAeFOPDAAAAA==" />
+            <air:BookingInfo BookingCode="R" BookingCount="9" CabinClass="Economy" FareInfoRef="qD6CLOUqWDKAzFOPDAAAAA==" SegmentRef="qD6CLOUqWDKAgFOPDAAAAA==" />
+            <air:BookingInfo BookingCode="R" BookingCount="9" CabinClass="Economy" FareInfoRef="qD6CLOUqWDKAzFOPDAAAAA==" SegmentRef="qD6CLOUqWDKAiFOPDAAAAA==" />
+            <air:TaxInfo Category="BD" Amount="BDT500" Key="qD6CLOUqWDKAnFOPDAAAAA==" />
+            <air:TaxInfo Category="OW" Amount="BDT2000" Key="qD6CLOUqWDKAoFOPDAAAAA==" />
+            <air:TaxInfo Category="P7" Amount="BDT931" Key="qD6CLOUqWDKApFOPDAAAAA==" />
+            <air:TaxInfo Category="P8" Amount="BDT931" Key="qD6CLOUqWDKAqFOPDAAAAA==" />
+            <air:TaxInfo Category="UT" Amount="BDT3000" Key="qD6CLOUqWDKArFOPDAAAAA==" />
+            <air:TaxInfo Category="AE" Amount="BDT1901" Key="qD6CLOUqWDKAsFOPDAAAAA==" />
+            <air:TaxInfo Category="F6" Amount="BDT888" Key="qD6CLOUqWDKAtFOPDAAAAA==" />
+            <air:TaxInfo Category="TP" Amount="BDT127" Key="qD6CLOUqWDKAuFOPDAAAAA==" />
+            <air:TaxInfo Category="ZR" Amount="BDT254" Key="qD6CLOUqWDKAvFOPDAAAAA==" />
+            <air:TaxInfo Category="E5" Amount="BDT355" Key="qD6CLOUqWDKAwFOPDAAAAA==" />
+            <air:FareCalc>DAC UL X/CMB UL DXB Q DACDXB39.83 284.50LRT1BD UL X/CMB UL DAC Q DXBDAC33.60 240.00RE6M1BD NUC597.93END ROE1.0</air:FareCalc>
+            <air:PassengerType Code="ADT" />
+            <air:ChangePenalty PenaltyApplies="Anytime">
+                <air:Amount>BDT5585.0</air:Amount>
+            </air:ChangePenalty>
+            <air:CancelPenalty PenaltyApplies="Anytime">
+                <air:Amount>BDT8378.0</air:Amount>
+            </air:CancelPenalty>
+        </air:AirPricingInfo>
+    </air:AirPricingSolution>
+    <com:ActionStatus TicketDate="2022-10-04" Type="TAU" ProviderCode="1G"
+        xmlns:com="http://www.travelport.com/schema/common_v50_0"/>
+</univ:AirCreateReservationReq>

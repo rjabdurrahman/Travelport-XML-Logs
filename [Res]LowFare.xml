@@ -1,0 +1,154 @@
+<air:LowFareSearchRsp TransactionId="9A66A0100A0D6A9462A1433EEE5D3700" ResponseTime="286" DistanceUnits="MI" CurrencyType="BDT"
+    xmlns:air="http://www.travelport.com/schema/air_v50_0">
+    <air:FlightDetailsList>
+        <air:FlightDetails Key="qD6CLOUqWDKAdFOPDAAAAA==" Origin="DAC" Destination="CMB" DepartureTime="2022-11-13T13:00:00.000+06:00" ArrivalTime="2022-11-13T15:55:00.000+05:30" FlightTime="205" TravelTime="650" Equipment="332" OriginTerminal="1" />
+        <air:FlightDetails Key="qD6CLOUqWDKAfFOPDAAAAA==" Origin="CMB" Destination="DXB" DepartureTime="2022-11-13T18:35:00.000+05:30" ArrivalTime="2022-11-13T21:50:00.000+04:00" FlightTime="285" TravelTime="650" Equipment="332" DestinationTerminal="1" />
+        <air:FlightDetails Key="qD6CLOUqWDKAhFOPDAAAAA==" Origin="DXB" Destination="CMB" DepartureTime="2022-11-18T23:00:00.000+04:00" ArrivalTime="2022-11-19T04:55:00.000+05:30" FlightTime="265" TravelTime="630" Equipment="332" OriginTerminal="1" />
+        <air:FlightDetails Key="qD6CLOUqWDKAjFOPDAAAAA==" Origin="CMB" Destination="DAC" DepartureTime="2022-11-19T07:50:00.000+05:30" ArrivalTime="2022-11-19T11:30:00.000+06:00" FlightTime="190" TravelTime="630" Equipment="32B" DestinationTerminal="1" />
+    </air:FlightDetailsList>
+    <air:AirSegmentList>
+        <air:AirSegment Key="qD6CLOUqWDKAcFOPDAAAAA==" Group="0" Carrier="UL" FlightNumber="190" Origin="DAC" Destination="CMB" DepartureTime="2022-11-13T13:00:00.000+06:00" ArrivalTime="2022-11-13T15:55:00.000+05:30" FlightTime="205" Distance="1341" ETicketability="Yes" Equipment="332" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+            <air:AirAvailInfo ProviderCode="1G" />
+            <air:FlightDetailsRef Key="qD6CLOUqWDKAdFOPDAAAAA==" />
+        </air:AirSegment>
+        <air:AirSegment Key="qD6CLOUqWDKAeFOPDAAAAA==" Group="0" Carrier="UL" FlightNumber="225" Origin="CMB" Destination="DXB" DepartureTime="2022-11-13T18:35:00.000+05:30" ArrivalTime="2022-11-13T21:50:00.000+04:00" FlightTime="285" Distance="2043" ETicketability="Yes" Equipment="332" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+            <air:AirAvailInfo ProviderCode="1G" />
+            <air:FlightDetailsRef Key="qD6CLOUqWDKAfFOPDAAAAA==" />
+        </air:AirSegment>
+        <air:AirSegment Key="qD6CLOUqWDKAgFOPDAAAAA==" Group="1" Carrier="UL" FlightNumber="226" Origin="DXB" Destination="CMB" DepartureTime="2022-11-18T23:00:00.000+04:00" ArrivalTime="2022-11-19T04:55:00.000+05:30" FlightTime="265" Distance="2043" ETicketability="Yes" Equipment="332" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+            <air:AirAvailInfo ProviderCode="1G" />
+            <air:FlightDetailsRef Key="qD6CLOUqWDKAhFOPDAAAAA==" />
+        </air:AirSegment>
+        <air:AirSegment Key="qD6CLOUqWDKAiFOPDAAAAA==" Group="1" Carrier="UL" FlightNumber="189" Origin="CMB" Destination="DAC" DepartureTime="2022-11-19T07:50:00.000+05:30" ArrivalTime="2022-11-19T11:30:00.000+06:00" FlightTime="190" Distance="1341" ETicketability="Yes" Equipment="32B" ChangeOfPlane="false" ParticipantLevel="Secure Sell" LinkAvailability="true" PolledAvailabilityOption="Polled avail exists" OptionalServicesIndicator="false" AvailabilitySource="A" AvailabilityDisplayType="Fare Shop/Optimal Shop">
+            <air:AirAvailInfo ProviderCode="1G" />
+            <air:FlightDetailsRef Key="qD6CLOUqWDKAjFOPDAAAAA==" />
+        </air:AirSegment>
+    </air:AirSegmentList>
+    <air:FareInfoList>
+        <air:FareInfo Key="qD6CLOUqWDKAxFOPDAAAAA==" FareBasis="LRT1BD" PassengerTypeCode="ADT" Origin="DAC" Destination="DXB" EffectiveDate="2022-10-04T02:32:00.000+06:00" DepartureDate="2022-11-13" Amount="BDT30192" NegotiatedFare="false" NotValidBefore="2022-11-13" NotValidAfter="2022-11-13">
+            <air:FareSurcharge Key="qD6CLOUqWDKAyFOPDAAAAA==" Type="Other" Amount="NUC39.83" />
+            <air:BaggageAllowance>
+                <air:MaxWeight Value="30" Unit="Kilograms" />
+            </air:BaggageAllowance>
+            <air:FareRuleKey FareInfoRef="qD6CLOUqWDKAxFOPDAAAAA==" ProviderCode="1G">gws-eJxNjsEKAyEMRD9mmfskUdqjq3bpYfFQdqF76f9/RqNSaMDMhBcdU0pKVSEt/deCz3LuaGcBGtRPfWfoPURCfLpAqmB/HZIrxhMi5qANOFXGWtESXLBx04l64Rq9rsWZaTBzpaAHo1u/gZ95PN22tR65UmnGGKPHTsgb/KdfblsrRA==</air:FareRuleKey>
+            <air:Brand Key="qD6CLOUqWDKAPGOPDAAAAA==" BrandID="933064" BrandTier="0004" />
+        </air:FareInfo>
+        <air:FareInfo Key="qD6CLOUqWDKAzFOPDAAAAA==" FareBasis="RE6M1BD" PassengerTypeCode="ADT" Origin="DXB" Destination="DAC" EffectiveDate="2022-10-04T02:32:00.000+06:00" DepartureDate="2022-11-18" Amount="BDT25476" NegotiatedFare="false" NotValidBefore="2022-11-19" NotValidAfter="2022-11-19">
+            <air:FareSurcharge Key="qD6CLOUqWDKA0FOPDAAAAA==" Type="Other" Amount="NUC33.60" />
+            <air:BaggageAllowance>
+                <air:MaxWeight Value="30" Unit="Kilograms" />
+            </air:BaggageAllowance>
+            <air:FareRuleKey FareInfoRef="qD6CLOUqWDKAzFOPDAAAAA==" ProviderCode="1G">gws-eJxNTkEOwzAIe0zluyFNu2OapNUOWw7TKq2X/f8ZI3SThgQ2MmBSSkpVIUP6jwHvYb+h7QVoUMu6FOhI0rsDpAoe63SXXOE3RC6mNFdPFJ8rWkYDbNzUpaNZfGt95X5qDhMNKejO6NQ28CPr1Whb6jNXKkNgjNFsT5Ez7NUPim8rcw==</air:FareRuleKey>
+            <air:Brand Key="qD6CLOUqWDKARGOPDAAAAA==" BrandID="933064" BrandTier="0004" />
+        </air:FareInfo>
+        <air:FareInfo Key="qD6CLOUqWDKAEGOPDAAAAA==" FareBasis="LRT1BD" PassengerTypeCode="CNN" Origin="DAC" Destination="DXB" EffectiveDate="2022-10-04T02:32:00.000+06:00" DepartureDate="2022-11-13" Amount="BDT21949" NegotiatedFare="false" NotValidBefore="2022-11-13" NotValidAfter="2022-11-13">
+            <air:FareSurcharge Key="qD6CLOUqWDKAFGOPDAAAAA==" Type="Other" Amount="NUC22.40" />
+            <air:BaggageAllowance>
+                <air:MaxWeight Value="30" Unit="Kilograms" />
+            </air:BaggageAllowance>
+            <air:FareRuleKey FareInfoRef="qD6CLOUqWDKAEGOPDAAAAA==" ProviderCode="1G">gws-eJxNTkEOwzAIe0zlO5hFuWZJVu1QcZhWab3s/88YSTWpSGAjA6aUQiFVxMo1FnyXfYPvDXAwsn8qqGYZGt0BESq211trxzyhaiH4FE/kHGtstwCssvKURuCYtd/buGQp50AhhjEGjQ38yeMZ1Jt77UIxk5RS2J6iZMSnP3APK1I=</air:FareRuleKey>
+            <air:Brand Key="qD6CLOUqWDKATGOPDAAAAA==" BrandID="933064" BrandTier="0004" />
+        </air:FareInfo>
+        <air:FareInfo Key="qD6CLOUqWDKAGGOPDAAAAA==" FareBasis="RE6M1BD" PassengerTypeCode="CNN" Origin="DXB" Destination="DAC" EffectiveDate="2022-10-04T02:32:00.000+06:00" DepartureDate="2022-11-18" Amount="BDT18546" NegotiatedFare="false" NotValidBefore="2022-11-19" NotValidAfter="2022-11-19">
+            <air:FareSurcharge Key="qD6CLOUqWDKAHGOPDAAAAA==" Type="Other" Amount="NUC22.40" />
+            <air:FareSurcharge Key="qD6CLOUqWDKAIGOPDAAAAA==" Type="Other" Amount="NUC18.90" />
+            <air:BaggageAllowance>
+                <air:MaxWeight Value="30" Unit="Kilograms" />
+            </air:BaggageAllowance>
+            <air:FareRuleKey FareInfoRef="qD6CLOUqWDKAGGOPDAAAAA==" ProviderCode="1G">gws-eJxNjrEOwjAMRD+muv3sEEi3kKRVh+IBqRJd+P/PwE1BwlJ8Zz0nl5yzUlXIkP9rwHvYVthWAYP6afcKSST7tINUwXO6PqQ09DdEkhPr9FTte1XrxQUzZ+1oN69vb6/iTMY00pWKIxmH9Rv4mWlxa9WsNCpDYIzRY0/IG/yrH4/bK4c=</air:FareRuleKey>
+            <air:Brand Key="qD6CLOUqWDKAVGOPDAAAAA==" BrandID="933064" BrandTier="0004" />
+        </air:FareInfo>
+    </air:FareInfoList>
+    <air:RouteList>
+        <air:Route Key="qD6CLOUqWDKANGOPDAAAAA==">
+            <air:Leg Key="qD6CLOUqWDKAkFOPDAAAAA==" Group="0" Origin="DAC" Destination="DXB" />
+            <air:Leg Key="qD6CLOUqWDKAlFOPDAAAAA==" Group="1" Origin="DXB" Destination="DAC" />
+        </air:Route>
+    </air:RouteList>
+    <air:AirPricingSolution Key="qD6CLOUqWDKAbFOPDAAAAA==" TotalPrice="BDT116437" BasePrice="USD1033.00" ApproximateTotalPrice="BDT116437" ApproximateBasePrice="BDT96163" EquivalentBasePrice="BDT96163" Taxes="BDT20274" ApproximateTaxes="BDT20274">
+        <air:Journey TravelTime="P0DT10H50M0S">
+            <air:AirSegmentRef Key="qD6CLOUqWDKAcFOPDAAAAA==" />
+            <air:AirSegmentRef Key="qD6CLOUqWDKAeFOPDAAAAA==" />
+        </air:Journey>
+        <air:Journey TravelTime="P0DT10H30M0S">
+            <air:AirSegmentRef Key="qD6CLOUqWDKAgFOPDAAAAA==" />
+            <air:AirSegmentRef Key="qD6CLOUqWDKAiFOPDAAAAA==" />
+        </air:Journey>
+        <air:LegRef Key="qD6CLOUqWDKAkFOPDAAAAA==" />
+        <air:LegRef Key="qD6CLOUqWDKAlFOPDAAAAA==" />
+        <air:AirPricingInfo Key="qD6CLOUqWDKAmFOPDAAAAA==" TotalPrice="BDT66555" BasePrice="USD598.00" ApproximateTotalPrice="BDT66555" ApproximateBasePrice="BDT55668" EquivalentBasePrice="BDT55668" Taxes="BDT10887" ApproximateTaxes="BDT10887" LatestTicketingTime="2022-11-13T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="UL" ProviderCode="1G" Cat35Indicator="false">
+            <air:FareInfoRef Key="qD6CLOUqWDKAxFOPDAAAAA==" />
+            <air:FareInfoRef Key="qD6CLOUqWDKAzFOPDAAAAA==" />
+            <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="qD6CLOUqWDKAxFOPDAAAAA==" SegmentRef="qD6CLOUqWDKAcFOPDAAAAA==" />
+            <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="qD6CLOUqWDKAxFOPDAAAAA==" SegmentRef="qD6CLOUqWDKAeFOPDAAAAA==" />
+            <air:BookingInfo BookingCode="R" BookingCount="9" CabinClass="Economy" FareInfoRef="qD6CLOUqWDKAzFOPDAAAAA==" SegmentRef="qD6CLOUqWDKAgFOPDAAAAA==" />
+            <air:BookingInfo BookingCode="R" BookingCount="9" CabinClass="Economy" FareInfoRef="qD6CLOUqWDKAzFOPDAAAAA==" SegmentRef="qD6CLOUqWDKAiFOPDAAAAA==" />
+            <air:TaxInfo Category="BD" Amount="BDT500" Key="qD6CLOUqWDKAnFOPDAAAAA==" />
+            <air:TaxInfo Category="OW" Amount="BDT2000" Key="qD6CLOUqWDKAoFOPDAAAAA==" />
+            <air:TaxInfo Category="P7" Amount="BDT931" Key="qD6CLOUqWDKApFOPDAAAAA==" />
+            <air:TaxInfo Category="P8" Amount="BDT931" Key="qD6CLOUqWDKAqFOPDAAAAA==" />
+            <air:TaxInfo Category="UT" Amount="BDT3000" Key="qD6CLOUqWDKArFOPDAAAAA==" />
+            <air:TaxInfo Category="AE" Amount="BDT1901" Key="qD6CLOUqWDKAsFOPDAAAAA==" />
+            <air:TaxInfo Category="F6" Amount="BDT888" Key="qD6CLOUqWDKAtFOPDAAAAA==" />
+            <air:TaxInfo Category="TP" Amount="BDT127" Key="qD6CLOUqWDKAuFOPDAAAAA==" />
+            <air:TaxInfo Category="ZR" Amount="BDT254" Key="qD6CLOUqWDKAvFOPDAAAAA==" />
+            <air:TaxInfo Category="E5" Amount="BDT355" Key="qD6CLOUqWDKAwFOPDAAAAA==" />
+            <air:FareCalc>DAC UL X/CMB UL DXB Q DACDXB39.83 284.50LRT1BD UL X/CMB UL DAC Q DXBDAC33.60 240.00RE6M1BD NUC597.93END ROE1.0</air:FareCalc>
+            <air:PassengerType Code="ADT" />
+            <air:ChangePenalty PenaltyApplies="Anytime">
+                <air:Amount>BDT5585.0</air:Amount>
+            </air:ChangePenalty>
+            <air:CancelPenalty PenaltyApplies="Anytime">
+                <air:Amount>BDT8378.0</air:Amount>
+            </air:CancelPenalty>
+        </air:AirPricingInfo>
+        <air:AirPricingInfo Key="qD6CLOUqWDKA5FOPDAAAAA==" TotalPrice="BDT49882" BasePrice="USD435.00" ApproximateTotalPrice="BDT49882" ApproximateBasePrice="BDT40495" EquivalentBasePrice="BDT40495" Taxes="BDT9387" ApproximateTaxes="BDT9387" LatestTicketingTime="2022-11-13T23:59:00.000+06:00" PricingMethod="Guaranteed" Refundable="true" ETicketability="Yes" PlatingCarrier="UL" ProviderCode="1G" Cat35Indicator="false">
+            <air:FareInfoRef Key="qD6CLOUqWDKAEGOPDAAAAA==" />
+            <air:FareInfoRef Key="qD6CLOUqWDKAGGOPDAAAAA==" />
+            <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="qD6CLOUqWDKAEGOPDAAAAA==" SegmentRef="qD6CLOUqWDKAcFOPDAAAAA==" />
+            <air:BookingInfo BookingCode="L" BookingCount="9" CabinClass="Economy" FareInfoRef="qD6CLOUqWDKAEGOPDAAAAA==" SegmentRef="qD6CLOUqWDKAeFOPDAAAAA==" />
+            <air:BookingInfo BookingCode="R" BookingCount="9" CabinClass="Economy" FareInfoRef="qD6CLOUqWDKAGGOPDAAAAA==" SegmentRef="qD6CLOUqWDKAgFOPDAAAAA==" />
+            <air:BookingInfo BookingCode="R" BookingCount="9" CabinClass="Economy" FareInfoRef="qD6CLOUqWDKAGGOPDAAAAA==" SegmentRef="qD6CLOUqWDKAiFOPDAAAAA==" />
+            <air:TaxInfo Category="BD" Amount="BDT500" Key="qD6CLOUqWDKA6FOPDAAAAA==" />
+            <air:TaxInfo Category="OW" Amount="BDT2000" Key="qD6CLOUqWDKA7FOPDAAAAA==" />
+            <air:TaxInfo Category="P7" Amount="BDT931" Key="qD6CLOUqWDKA8FOPDAAAAA==" />
+            <air:TaxInfo Category="P8" Amount="BDT931" Key="qD6CLOUqWDKA9FOPDAAAAA==" />
+            <air:TaxInfo Category="UT" Amount="BDT1500" Key="qD6CLOUqWDKA+FOPDAAAAA==" />
+            <air:TaxInfo Category="AE" Amount="BDT1901" Key="qD6CLOUqWDKA/FOPDAAAAA==" />
+            <air:TaxInfo Category="F6" Amount="BDT888" Key="qD6CLOUqWDKAAGOPDAAAAA==" />
+            <air:TaxInfo Category="TP" Amount="BDT127" Key="qD6CLOUqWDKABGOPDAAAAA==" />
+            <air:TaxInfo Category="ZR" Amount="BDT254" Key="qD6CLOUqWDKACGOPDAAAAA==" />
+            <air:TaxInfo Category="E5" Amount="BDT355" Key="qD6CLOUqWDKADGOPDAAAAA==" />
+            <air:FareCalc>DAC UL X/CMB UL DXB Q DACDXB22.40 213.37LRT1BDCH75 UL X/CMB UL DAC Q DXBDAC18.90 180.00RE6M1BDCH75 NUC434.67END ROE1.0</air:FareCalc>
+            <air:PassengerType Code="CNN" Age="10" />
+            <air:ChangePenalty PenaltyApplies="Anytime">
+                <air:Amount>BDT5585.0</air:Amount>
+            </air:ChangePenalty>
+            <air:CancelPenalty PenaltyApplies="Anytime">
+                <air:Amount>BDT8378.0</air:Amount>
+            </air:CancelPenalty>
+        </air:AirPricingInfo>
+        <air:Connection SegmentIndex="0" />
+        <air:Connection SegmentIndex="2" />
+    </air:AirPricingSolution>
+    <air:BrandList>
+        <air:Brand Key="qD6CLOUqWDKAXGOPDAAAAA==" BrandID="933064" Name="Economy Value" BrandedDetailsAvailable="true" Carrier="UL">
+            <air:Title Type="External" LanguageCode="EN">Economy Value</air:Title>
+            <air:Title Type="Short" LanguageCode="EN">ECO VALUE</air:Title>
+            <air:Text Type="MarketingAgent" LanguageCode="EN">'Economy Value includes:
+
+• Hand baggage 1 x 7kgs
+• Checked baggage included
+• Changes permitted
+• Refunds permitted
+• Onboard Meals and refreshments included  
+• Seat selection (Exit Seat and Advance Seat Reservation)
+
+Please refer to fare rules for full conditions
+• Please note that if the flight is operated by another airline then the onboard product or service maybe different to that described above.</air:Text>
+            <air:Text Type="Strapline" LanguageCode="EN">Economy Value</air:Text>
+            <air:ImageLocation Type="Consumer" ImageWidth="1400" ImageHeight="800">https://cdn.travelport.com/srilankanairlines/UL_general_large_80545.JPG</air:ImageLocation>
+            <air:ImageLocation Type="Agent" ImageWidth="150" ImageHeight="150">https://cdn.travelport.com/srilankanairlines/UL_general_medium_80544.JPG</air:ImageLocation>
+        </air:Brand>
+    </air:BrandList>
+</air:LowFareSearchRsp>

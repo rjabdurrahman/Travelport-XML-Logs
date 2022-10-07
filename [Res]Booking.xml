@@ -1,0 +1,98 @@
+<universal:AirCreateReservationRsp TransactionId="9A9C2E4E0A0D6A9462A1433E7622D971" ResponseTime="41578" xmlns:universal="http://www.travelport.com/schema/universal_v50_0" xmlns:common_v50_0="http://www.travelport.com/schema/common_v50_0" xmlns:air="http://www.travelport.com/schema/air_v50_0">
+  <common_v50_0:ResponseMessage Code="3370" Type="Warning" ProviderCode="1G">The Credit Card Holder Name is only saved locally for the requested provider.</common_v50_0:ResponseMessage>
+  <common_v50_0:ResponseMessage Code="3068" Type="Warning" ProviderCode="1G">Additional details like Billing Address, Phone Number is saved locally for the requested provider.</common_v50_0:ResponseMessage>
+  <common_v50_0:ResponseMessage Code="0" Type="Warning" ProviderCode="1G">NO FARES</common_v50_0:ResponseMessage>
+  <common_v50_0:ResponseMessage Code="0" Type="Warning" ProviderCode="1G">Some of the requested AirPricingInfos could not be saved for the requested provider.</common_v50_0:ResponseMessage>
+  <common_v50_0:ResponseMessage Code="0" Type="Warning" ProviderCode="1G">NO VALID FARE FOR INPUT CRITERIA</common_v50_0:ResponseMessage>
+  <common_v50_0:ResponseMessage Code="0" Type="Warning" ProviderCode="1G"> *
+&gt;&lt;</common_v50_0:ResponseMessage>
+  <universal:UniversalRecord LocatorCode="1DOM38" Version="0" Status="Active">
+    <common_v50_0:BookingTraveler Key="Qm9va2luZ1RyYXZlbGVyMQ==" TravelerType="ADT" ElStat="A">
+      <common_v50_0:BookingTravelerName Prefix="Mr" First="CARSTEN" Last="LINDELOEV" />
+      <common_v50_0:PhoneNumber Key="qD6CLOUqWDKAA22PDAAAAA==" Type="Home" Location="DEN" CountryCode="011" Number="227-722-2454" Extension="22" AreaCode="222" Text="Abc-Xy" ElStat="A">
+        <common_v50_0:ProviderReservationInfoRef Key="qD6CLOUqWDKAM22PDAAAAA==" />
+      </common_v50_0:PhoneNumber>
+      <common_v50_0:Email Key="qD6CLOUqWDKAC22PDAAAAA==" Type="Home" EmailID="jtestora@travelport.com" ElStat="A">
+        <common_v50_0:ProviderReservationInfoRef Key="qD6CLOUqWDKAM22PDAAAAA==" />
+      </common_v50_0:Email>
+      <common_v50_0:SSR Key="qD6CLOUqWDKAB22PDAAAAA==" Status="HK" Type="DOCS" FreeText="P/CA/00000356/GB/0000000/M/01JAN14/LINDELOEV/CARSTENGJELLERUPMR -1LINDELOEV/CARSTENMR" Carrier="SA" ProviderReservationInfoRef="qD6CLOUqWDKAM22PDAAAAA==" ElStat="A" />
+      <common_v50_0:Address Key="qD6CLOUqWDKAD22PDAAAAA==" ElStat="A">
+        <common_v50_0:AddressName>Jan Restora</common_v50_0:AddressName>
+        <common_v50_0:Street>6901 S. Havana</common_v50_0:Street>
+        <common_v50_0:Street>Apt 3</common_v50_0:Street>
+        <common_v50_0:City>Englewood</common_v50_0:City>
+        <common_v50_0:State>CO</common_v50_0:State>
+        <common_v50_0:PostalCode>80111</common_v50_0:PostalCode>
+        <common_v50_0:Country>US</common_v50_0:Country>
+        <common_v50_0:ProviderReservationInfoRef Key="qD6CLOUqWDKAM22PDAAAAA==" />
+      </common_v50_0:Address>
+    </common_v50_0:BookingTraveler>
+    <common_v50_0:ActionStatus Key="qD6CLOUqWDKAG22PDAAAAA==" Type="TAU" TicketDate="2022-10-04T23:59:00.000+06:00" ProviderReservationInfoRef="qD6CLOUqWDKAM22PDAAAAA==" ProviderCode="1G" ElStat="A" />
+    <universal:ProviderReservationInfo Key="qD6CLOUqWDKAM22PDAAAAA==" ProviderCode="1G" LocatorCode="2CHXXJ" CreateDate="2022-10-02T21:31:51.369+00:00" ModifiedDate="2022-10-02T21:31:51.369+00:00" HostCreateDate="2022-10-02" OwningPCC="67G0">
+      <universal:ProviderReservationDisplayDetailsList>
+        <universal:DisplayDetails ProviderReservationDetail="true">
+          <universal:DisplayDetail Name="OwningAgencyPCC" Value="67G0" />
+          <universal:DisplayDetail Name="CreatingAgentSignOn" Value="67G0GWS" />
+          <universal:DisplayDetail Name="CreatingAgentDuty" Value="AG" />
+          <universal:DisplayDetail Name="CreatingAgencyIATA" Value="42301840" />
+          <universal:DisplayDetail Name="PrepaidTicketAdviceIndicator" Value="N" />
+          <universal:DisplayDetail Name="BFBorrowed" Value="N" />
+          <universal:DisplayDetail Name="GlobalPNR" Value="N" />
+          <universal:DisplayDetail Name="PastDateQuickRetrievedPNR" Value="N" />
+          <universal:DisplayDetail Name="PNRPurgeDate" Value="20221121" />
+          <universal:DisplayDetail Name="OriginalReceivedFieldValue" Value="KAZIENAMULHOSSAIN" />
+        </universal:DisplayDetails>
+      </universal:ProviderReservationDisplayDetailsList>
+    </universal:ProviderReservationInfo>
+    <air:AirReservation LocatorCode="1DOM39" CreateDate="2022-10-02T21:31:50.700+00:00" ModifiedDate="2022-10-02T21:31:51.369+00:00">
+      <common_v50_0:BookingTravelerRef Key="Qm9va2luZ1RyYXZlbGVyMQ==" />
+      <common_v50_0:ProviderReservationInfoRef Key="qD6CLOUqWDKAM22PDAAAAA==" />
+      <air:AirSegment Key="qD6CLOUqWDKAcFOPDAAAAA==" Group="0" Carrier="UL" CabinClass="Economy" FlightNumber="190" ProviderCode="1G" Origin="DAC" Destination="CMB" DepartureTime="2022-11-13T13:00:00.000+06:00" ArrivalTime="2022-11-13T15:55:00.000+05:30" TravelTime="205" ClassOfService="L" ETicketability="No" Equipment="332" Status="PN" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="qD6CLOUqWDKAM22PDAAAAA==" TravelOrder="1" ProviderSegmentOrder="1" OptionalServicesIndicator="false" AvailabilitySource="A" ParticipantLevel="Secure Sell" LinkAvailability="true" ElStat="A">
+        <air:FlightDetails Key="qD6CLOUqWDKAO22PDAAAAA==" Origin="DAC" Destination="CMB" DepartureTime="2022-11-13T13:00:00.000+06:00" ArrivalTime="2022-11-13T15:55:00.000+05:30" FlightTime="205" TravelTime="205" Equipment="332" OriginTerminal="1" AutomatedCheckin="false" ElStat="A" />
+        <air:Connection Duration="160" />
+        <common_v50_0:SellMessage>*SECURED SELL NOT AVAILABLE*</common_v50_0:SellMessage>
+        <common_v50_0:SellMessage>DEPARTS DAC TERMINAL 1</common_v50_0:SellMessage>
+      </air:AirSegment>
+      <air:AirSegment Key="qD6CLOUqWDKAeFOPDAAAAA==" Group="0" Carrier="UL" CabinClass="Economy" FlightNumber="225" ProviderCode="1G" Origin="CMB" Destination="DXB" DepartureTime="2022-11-13T18:35:00.000+05:30" ArrivalTime="2022-11-13T21:50:00.000+04:00" TravelTime="285" ClassOfService="L" ETicketability="No" Equipment="332" Status="PN" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="qD6CLOUqWDKAM22PDAAAAA==" TravelOrder="2" ProviderSegmentOrder="2" OptionalServicesIndicator="false" AvailabilitySource="A" ParticipantLevel="Secure Sell" LinkAvailability="true" ElStat="A">
+        <air:FlightDetails Key="qD6CLOUqWDKAP22PDAAAAA==" Origin="CMB" Destination="DXB" DepartureTime="2022-11-13T18:35:00.000+05:30" ArrivalTime="2022-11-13T21:50:00.000+04:00" FlightTime="285" TravelTime="285" Equipment="332" DestinationTerminal="1" AutomatedCheckin="false" ElStat="A" />
+        <common_v50_0:SellMessage>*SECURED SELL NOT AVAILABLE*</common_v50_0:SellMessage>
+        <common_v50_0:SellMessage>ARRIVES DXB TERMINAL 1</common_v50_0:SellMessage>
+      </air:AirSegment>
+      <air:AirSegment Key="qD6CLOUqWDKAgFOPDAAAAA==" Group="1" Carrier="UL" CabinClass="Economy" FlightNumber="226" ProviderCode="1G" Origin="DXB" Destination="CMB" DepartureTime="2022-11-18T23:00:00.000+04:00" ArrivalTime="2022-11-19T04:55:00.000+05:30" TravelTime="265" ClassOfService="R" ETicketability="No" Equipment="332" Status="PN" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="qD6CLOUqWDKAM22PDAAAAA==" TravelOrder="3" ProviderSegmentOrder="3" OptionalServicesIndicator="false" AvailabilitySource="A" ParticipantLevel="Secure Sell" LinkAvailability="true" ElStat="A">
+        <air:FlightDetails Key="qD6CLOUqWDKAQ22PDAAAAA==" Origin="DXB" Destination="CMB" DepartureTime="2022-11-18T23:00:00.000+04:00" ArrivalTime="2022-11-19T04:55:00.000+05:30" FlightTime="265" TravelTime="265" Equipment="332" OriginTerminal="1" AutomatedCheckin="false" ElStat="A" />
+        <air:Connection Duration="175" />
+        <common_v50_0:SellMessage>*SECURED SELL NOT AVAILABLE*</common_v50_0:SellMessage>
+        <common_v50_0:SellMessage>DEPARTS DXB TERMINAL 1</common_v50_0:SellMessage>
+      </air:AirSegment>
+      <air:AirSegment Key="qD6CLOUqWDKAiFOPDAAAAA==" Group="1" Carrier="UL" CabinClass="Economy" FlightNumber="189" ProviderCode="1G" Origin="CMB" Destination="DAC" DepartureTime="2022-11-19T07:50:00.000+05:30" ArrivalTime="2022-11-19T11:30:00.000+06:00" TravelTime="190" ClassOfService="R" ETicketability="No" Equipment="32B" Status="PN" ChangeOfPlane="false" GuaranteedPaymentCarrier="No" ProviderReservationInfoRef="qD6CLOUqWDKAM22PDAAAAA==" TravelOrder="4" ProviderSegmentOrder="4" OptionalServicesIndicator="false" AvailabilitySource="A" ParticipantLevel="Secure Sell" LinkAvailability="true" ElStat="A">
+        <air:FlightDetails Key="qD6CLOUqWDKAR22PDAAAAA==" Origin="CMB" Destination="DAC" DepartureTime="2022-11-19T07:50:00.000+05:30" ArrivalTime="2022-11-19T11:30:00.000+06:00" FlightTime="190" TravelTime="190" Equipment="32B" DestinationTerminal="1" AutomatedCheckin="false" ElStat="A" />
+        <common_v50_0:SellMessage>*SECURED SELL NOT AVAILABLE*</common_v50_0:SellMessage>
+        <common_v50_0:SellMessage>ARRIVES DAC TERMINAL 1</common_v50_0:SellMessage>
+        <common_v50_0:SellMessage>ADD ADVANCE PASSENGER INFORMATION SSRS DOCA/DOCO/DOCS</common_v50_0:SellMessage>
+        <common_v50_0:SellMessage>PERSONAL DATA WHICH IS PROVIDED TO US IN CONNECTION</common_v50_0:SellMessage>
+        <common_v50_0:SellMessage>WITH YOUR TRAVEL MAY BE PASSED TO GOVERNMENT AUTHORITIES</common_v50_0:SellMessage>
+        <common_v50_0:SellMessage>FOR BORDER CONTROL AND AVIATION SECURITY PURPOSES</common_v50_0:SellMessage>
+      </air:AirSegment>
+    </air:AirReservation>
+    <common_v50_0:GeneralRemark Key="qD6CLOUqWDKAE22PDAAAAA==" TypeInGds="Basic" ProviderReservationInfoRef="qD6CLOUqWDKAM22PDAAAAA==" CreateDate="2022-10-02T21:31:00.000+00:00" ElStat="A">
+      <common_v50_0:RemarkData>BOOKING 1</common_v50_0:RemarkData>
+    </common_v50_0:GeneralRemark>
+    <common_v50_0:AgencyInfo>
+      <common_v50_0:AgentAction ActionType="Created" AgentCode="uAPI8412215835-2a3c237a" BranchCode="P7186508" AgencyCode="S7186501" EventTime="2022-10-02T21:31:10.308+00:00" />
+    </common_v50_0:AgencyInfo>
+    <common_v50_0:FormOfPayment Key="PDz8y7xu4hGfaM/wYIhwmw==" Type="Credit" Reusable="false" ProfileKey="GAJOYrVu4hGShsrlYIhwmw==" ElStat="A">
+      <common_v50_0:CreditCard Type="CA" Number="************5557" ExpDate="2024-01" Name="JAYA KUMAR">
+        <common_v50_0:BillingAddress Key="qD6CLOUqWDKAF22PDAAAAA==" ElStat="A">
+          <common_v50_0:AddressName>Jan Testora</common_v50_0:AddressName>
+          <common_v50_0:Street>6901 S. Havana</common_v50_0:Street>
+          <common_v50_0:Street>Apt 2</common_v50_0:Street>
+          <common_v50_0:City>Englewood</common_v50_0:City>
+          <common_v50_0:State>CO</common_v50_0:State>
+          <common_v50_0:PostalCode>8011</common_v50_0:PostalCode>
+          <common_v50_0:Country>AU</common_v50_0:Country>
+        </common_v50_0:BillingAddress>
+      </common_v50_0:CreditCard>
+      <common_v50_0:ProviderReservationInfoRef Key="qD6CLOUqWDKAM22PDAAAAA==" />
+    </common_v50_0:FormOfPayment>
+  </universal:UniversalRecord>
+</universal:AirCreateReservationRsp>
